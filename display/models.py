@@ -52,10 +52,6 @@ class Category(models.Model):
     def delete_catgory(self):
         self.save()
 
-
-# renaming class Images to Photos due to error in terminal;
-
-
 class Image(models.Model):
     image_name = models.CharField(max_length=20)
     image_description = models.CharField(max_length=30)
