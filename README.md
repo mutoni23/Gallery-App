@@ -13,5 +13,8 @@
  - Users can also view the details of the image and even copy the link of the image url.
  - Users can be able to see the location of the photo.
 
+ # Prerequisites
+ 
+
 
 
