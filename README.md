@@ -14,7 +14,15 @@
  - Users can be able to see the location of the photo.
 
  # Prerequisites
- 
+ - Git
+ - Python: 3.6 versions
+ - Django: 1.11 or greater version
+ - Have Internet connection
+ - Gunicorn
+ - Chrome Browse
+ - Gunicorn
+
+ # Installations
 
 
 
