@@ -23,6 +23,15 @@
  - Gunicorn
 
  # Installations
+ - Django
+ - databases
+ - gunicorn
+ - Pillow
+ - psycopg2
+ - django bootstrap3
+
+ # contact details
+ 
 
 
 
