@@ -17,12 +17,6 @@ class Location(models.Model):
     def delete_location(self):
         self.save()
 
-
-# iterable tuple to use as choices of category fiel
-
-# iterable tuple to use as choices of category fiel
-
-
 ORDER_CHOICES = (
     ('11', 'Vegetation'),
     ('12', 'Trees'),
