@@ -69,9 +69,6 @@ class Image(models.Model):
         )
     image = models.ImageField(upload_to='photos/', null="True", blank="True")
 
-    # __str__ will return string representation of the image model
-    # __str__ will enable us view our returned queries
-
     def __str__(self):
         return self.image_name
 
