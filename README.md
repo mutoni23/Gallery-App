@@ -11,6 +11,7 @@
  - Users are able to search for pics according to categories.
  - Users can view a single pic in its fullscreen size.
  - Users can also view the details of the image and even copy the link of the image url.
+ - Users can be able to see the location of the photo.
 
 
 
