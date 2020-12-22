@@ -19,7 +19,7 @@ def Valley(request):
     '''
 
     images = Image.filter_by_location()
-    return render(request, 'Valley.html', {"imagey": images},)
+    return render(request, 'valley.html', {"imagey": images},)
 
 
 def image(request, image_id):

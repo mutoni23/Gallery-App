@@ -59,8 +59,14 @@ class Category(models.Model):
 class Image(models.Model):
     image_name = models.CharField(max_length=20)
     image_description = models.CharField(max_length=30)
-    location = models.ForeignKey(Location)
-    category = models.ForeignKey(Category)
+    location =models.ForeignKey(
+        'Location',
+        on_delete=models.CASCADE,
+        )
+    category =models.ForeignKey(
+        'Category',
+        on_delete=models.CASCADE,
+        )
     image = models.ImageField(upload_to='photos/', null="True", blank="True")
 
     # __str__ will return string representation of the image model
@@ -87,7 +93,7 @@ class Image(models.Model):
     @classmethod
     def filter_by_location(cls):
         display = cls.objects.filter(
-            location__name__icontains='Silicon Valley')
+            location__name__icontains='Valley')
         return display
 
     class Meta:
