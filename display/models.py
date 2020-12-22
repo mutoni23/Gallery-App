@@ -18,7 +18,9 @@ class Location(models.Model):
         self.save()
 
 
-# iterable tuple to use as choices of category field
+# iterable tuple to use as choices of category fiel
+
+# iterable tuple to use as choices of category fiel
 
 
 ORDER_CHOICES = (
