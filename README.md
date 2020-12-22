@@ -6,3 +6,10 @@
  and also its category.
 
  # User Stories/ Parameters
+
+ - Has an administration dashboard that allows the admin to post pictures.
+ - 
+ - 
+
+
+
