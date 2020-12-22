@@ -10,6 +10,7 @@ def images(request):
     function to display the index page
     '''
     images = Image.objects.all()
+    print("test")
     return render(request, 'images.html', {"images": images})
 
 
