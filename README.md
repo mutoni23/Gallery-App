@@ -31,7 +31,10 @@
  - django bootstrap3
 
  # contact details
- 
+ Email-adress : mutoniv5@gmail.com
+
+ # License
+  - vivine (c)2020
 
 
 
